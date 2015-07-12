@@ -5,6 +5,7 @@ parts
 bootstrap*
 bin
 lib*
+var
 secret.cfg
 include
 .Python

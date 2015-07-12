@@ -3,6 +3,6 @@
  <version>7.5</version>
  <dependencies>
   <dependency>profile-eea.jquery:28-browser</dependency>
-  <dependency>profile-eea.facetednavigation:universal</dependency>
+  <dependency>profile-Products.ATContentTypes:base</dependency>
  </dependencies>
 </metadata>

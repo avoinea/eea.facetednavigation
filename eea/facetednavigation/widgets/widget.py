@@ -406,8 +406,8 @@ class CountableWidget(Widget):
                     elif isinstance(normalized_value, unicode):
                         res[normalized_value] = num
                     else:
-                        unicode_value = value.decode('utf-8')
-                    res[unicode_value] = num
+                        value = value.decode('utf-8')
+                    res[value] = num
             else:
                 # no facet counts were returned. we exit anyway because
                 # zcatalog methods throw an error on solr responses

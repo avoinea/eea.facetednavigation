@@ -1,0 +1,10 @@
+.*.cfg
+src
+parts
+*eggs
+bootstrap*
+bin
+lib*
+secret.cfg
+include
+.Python
